@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ConfigReadAndWriteFile<T> {
-    public static String PATH = "C:\\Users\\ASUS\\IdeaProjects\\Case2_Long\\src\\com.company\\data\\";
+    public static String PATH = "C:\\Users\\ASUS\\IdeaProjects\\caseLong\\src\\com\\company\\data\\";
     public List<T> readFromFile(String path){
         List<T> tList = new ArrayList<>();
         try {

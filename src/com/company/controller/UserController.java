@@ -7,6 +7,7 @@ import com.company.model.RoleName;
 import com.company.model.User;
 import com.company.model.UserPrincipal;
 import com.company.service.role.RoleServiceIMPL;
+import com.company.service.user.UserServiceIMPL;
 import com.company.service.user_principal.UserPrincipalServiceIMPL;
 
 import java.util.HashSet;

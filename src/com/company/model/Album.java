@@ -11,6 +11,11 @@ public class Album implements Serializable {
     public Album() {
     }
 
+    public Album(String tenAlbum, String caSiAlbum) {
+        this.tenAlbum = tenAlbum;
+        this.caSiAlbum = caSiAlbum;
+    }
+
     public Album(int id, String tenAlbum, String caSiAlbum, String hinhAnhAlbum) {
         this.id = id;
         this.tenAlbum = tenAlbum;
@@ -64,10 +69,18 @@ public class Album implements Serializable {
                 ", tenAlbum='" + tenAlbum + '\'' +
                 ", caSiAlbum='" + caSiAlbum + '\'' +
                 ", hinhAnhAlbum='" + hinhAnhAlbum + '\'' +
-                '}';
+                '}'+"\n";
     }
 
     public void hienThiAlbum() {
         System.out.printf("%-10d %-20s %-20s %-10d \n", id, tenAlbum, caSiAlbum, hinhAnhAlbum);
     }
+
+//    public String hienAlbum(){
+//        return "Album{" +
+//                "id=" + id +
+//                ", tenAlbum='" + tenAlbum + '\'' +
+//                ", caSiAlbum='" + caSiAlbum + '\'' +
+//                '}'+"\n";
+//    }
 }

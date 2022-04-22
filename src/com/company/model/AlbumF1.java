@@ -35,6 +35,6 @@ public class AlbumF1 implements Serializable {
         return "AlbumF1{" +
                 "tenAlbum='" + tenAlbum + '\'' +
                 ", caSiAlbum='" + caSiAlbum + '\'' +
-                '}';
+                '}'+"\n";
     }
 }
